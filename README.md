@@ -74,6 +74,14 @@ FFKit = require("FFKit").setup()
 
 This line loads all the modules from the kit to your Framer project.
 
+
+### Upload to Framer Cloud
+
+To be able to share you projects to Framer Cloud you might need to udpate Project ID.
+You can find current Project Id in `frame/config.json` 
+
+Modify one of the last numbers, or copy new project id from a new Framer project file. 
+
 ### Snippets
 
 ![Snippets preview](FFKit.framer/modules/FFKit/snippets/snippets.jpg)
