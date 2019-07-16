@@ -1,0 +1,254 @@
+{
+    "women":[
+        {
+            "type": "Designer",
+            "id": 1200200,
+            "name": "11:20",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 2682082,
+            "name": "Astley Clarke",
+            "description": "Astley Clarke was founded in London by Bec Astley Clarke MBE in 2007, to celebrate design, innovation and colour in fine jewellery. A desire to speak to a new generation of consumers, and propose relevant, quality fine jewellery for the modern woman underpins the brand's identity and offer. A sense of Britishness is central to Astley Clarke, which stands for irreverence as much as it does excellence. Acute attention to detail is central. Pieces are refined yet easy-to-wear, intelligent and joyful."
+        },
+        {
+            "type": "Designer",
+            "id": 6764776,
+            "name": "Sartorial Monk",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 6539952,
+            "name": "Desmond & Dempsey",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 5958339,
+            "name": "Almaz",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 580741,
+            "name": "Aquazzura",
+            "description": "Founded by Colombian-born Edgardo Osorio, luxury footwear label Aquazzura strikes the perfect balance between elegance and eccentricity. The designer’s skilled craftsmanship, eye for glamour and colourful personality come to life with each creation. Boasting a diverse collection ranging from dainty flats to teetering stilettos, Aquazzura radiates femininity and sensuality without compromising comfort. Signature details include painted snakeskin, tasselled trims and opulent fabrics that come together with the perfect fit."
+        },
+        {
+            "type": "Designer",
+            "id": 576486,
+            "name": "Wouters & Hendrix",
+            "description": "Katrin Wouters and Karen Hendrix are a jewellery design duo who’ve been friends and business partners for more than 25 years. Since they discovered each other’s work while studying at the Academy of Fine Arts in Antwerp, they’ve produced collections filled with both bold and refined pieces, that stem from an emotional expression and are crafted locally."
+        },
+        {
+            "type": "Designer",
+            "id": 3854635,
+            "name": "Unfortunate Portrait",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 487015,
+            "name": "Paraboot",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 6746948,
+            "name": "Matin",
+            "description": "Designed and made in Sydney, MATIN is the go-to for relaxed silhouettes and undone styling with a refined feminine edge. You need only look to the brand’s line-up of sublime dresses, separates and trademark styles to understand their cult appeal. Expect natural textures, versatile cottons and languid silks constructed into an edit of easy-wearing pieces with day-to-night versatility. "
+        },
+        {
+            "type": "Designer",
+            "id": 4672204,
+            "name": "Kova",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 5304050,
+            "name": "Fauzian Jeunesse",
+            "description": ""
+        }
+    ],
+    "men":[
+        {
+            "type": "Designer",
+            "id": 77509,
+            "name": "The Beatles X Comme Des Garçons",
+            "description": "Designer Rei Kawakubo is the figurehead of Comme des Garçons, which is now a design empire - Kawakubo is regarded by many in the fashion industry as a genius. The often avant-garde and always influential label was created by Kawakubo in Tokyo in 1969 before heading to Paris in 1981 where it garnered both acclaim and controversy with a debut collection of distressed and deconstructed pieces. The modern Comme des Garçons brand, which encompasses an entire family of sub-brands in fashion and fragrance, is worn by men and women with an esoteric style stance."
+        },
+        {
+            "type": "Designer",
+            "id": 675272,
+            "name": "Hevo",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 3414,
+            "name": "Helmut Lang",
+            "description": "A master of minimalism, merging feminine and masculine elements, sharp cuts and urban prints, Helmut Lang defined the nineties with a less-is-more outlook on modern dressing and remains a master of the aesthetic."
+        },
+        {
+            "type": "Designer",
+            "id": 7834,
+            "name": "Fiorucci",
+            "description": "Legendary Italian fashion house Fiorucci introduced the Milan style set to the Swinging Sixties when it opened in 1967. But it was the opening of a New York outpost in the 1970s that turned Fiorucci into the hottest label in the world. The shop on East 59th Street, which became a kind of daytime Studio 54, attracted New York’s hippest crowd including Andy Warhol, Gloria Vanderbilt and a young Madonna and Marc Jacobs. The fast moving, trend-focused style of the label kept it at the top of people’s wish lists way into the 1980s. Now under the ownership of Japan’s Edwin jeans, the brand seems ready for a comeback with a fashion-focused collection and a good dose of that old Fiorucci glamour."
+        },
+        {
+            "type": "Designer",
+            "id": 1078181,
+            "name": "Yes Master",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 413452,
+            "name": "Comme Des Garçons Homme Plus",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 584234,
+            "name": "Rucoline",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 397026,
+            "name": "Prism",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 1039439,
+            "name": "Chantal Thomass",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 2522051,
+            "name": "Education From Youngmachines",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 27638,
+            "name": "Delfina Delettrez",
+            "description": "Delfina Delettrez is a member of the famous Fendi dynasty, the Italian family that’s known globally for its luxurious accessories and ready-to-wear collections. But Delettrez has carved out a name for herself independently of the Fendi label, by creating beautifully executed jewellery pieces in precious metals and stones. Her work is inspired by the balance between good and evil, death and life, so look out for intricately crafted skulls, reptiles and insects in silver and bone and often encrusted in colourful crystals. The label is stocked in just a few influential boutiques globally so each piece is very much in demand."
+        },
+        {
+            "type": "Designer",
+            "id": 6539253,
+            "name": "Misa Los Angeles",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 258150,
+            "name": "Avelon",
+            "description": "Emerging brand Avelon prides itself on being beautifully different. Describing themselves, \"We see beauty where others do not. We like to surprise by being counter-intuitive and by taking things out of context.\" Mixing high fashion with directional style and luxury with a raw edge is key to the Avelon philosophy. In sum, expect casual styles infused with a unique flair. \r\n\r\n"
+        },
+        {
+            "type": "Designer",
+            "id": 1749282,
+            "name": "Daizy Shely",
+            "description": ""
+        }
+    ],
+    "kids":[
+        {
+            "type": "Designer",
+            "id": 3281102,
+            "name": "Cinzia Araia Kids",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 4909113,
+            "name": "Kired",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 3759567,
+            "name": "Wolf & Rita",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 5862148,
+            "name": "Stalvey",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 253174,
+            "name": "Cynthia Rowley",
+            "description": "Based in Greenwich Village, NYC, Cynthia Rowley channels her background in art into collections of punchy separates, colourful swimwear and luscious accessories. Eclectic, exuberant and exceptional, her empire has expanded to include beauty, homeware and even fitness. Expect playful prints, contemporary tailoring and a fun attitude from this CFDA award-winner. "
+        },
+        {
+            "type": "Designer",
+            "id": 3700999,
+            "name": "Maan",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 201607,
+            "name": "Sartore",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 103647,
+            "name": "Local",
+            "description": "Keeping an eye on the contemporary woman image Local adds a strong emotional component to the power of the raw materials. It's a simple and light collection, focused on shapes, styles and details. Cottons, linen and gauzes enriched with hand made embroidery are the main themes."
+        },
+        {
+            "type": "Designer",
+            "id": 225637,
+            "name": "Stephen Webster",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 513142,
+            "name": "Corto Moltedo",
+            "description": "Gabriele Corto Moltedo pairs old school techniques with new urban attitude to create his line of bags and accessories. Hailing from a family of designers specialising in artisan leather craft and raised as an apprentice to the family trade. In 1997, Corto moved to Paris to study fine art. By 2008 Corto Moltedo as a brand became a reality, when he opened his first his pop-luxe chic style boutique in Paris. Moltedo strives for his pieces to have a unique artistic perspective with superior quality. Championing the balance between being a city boy and a country gentleman, Gabriele uses travel as a way to become inspired, by art, music and his surroundings."
+        },
+        {
+            "type": "Designer",
+            "id": 3024922,
+            "name": "Christopher Nemeth",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 102357,
+            "name": "Bleu De Paname",
+            "description": "Bleu de Paname is a niche French label offering diverse denims and functional, American-style workwear. It rejuvenates everyday basics by adding subtle but sleek design details such as prints, contrast panels and bold retro slogans."
+        },
+        {
+            "type": "Designer",
+            "id": 7398800,
+            "name": "Little Creative Factory Kids",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 7579638,
+            "name": "Miss June",
+            "description": ""
+        },
+        {
+            "type": "Designer",
+            "id": 191090,
+            "name": "Loro Piana",
+            "description": ""
+        }
+    ]
+}

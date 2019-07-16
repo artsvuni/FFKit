@@ -1,0 +1,106 @@
+[
+    {
+        "id": 12578987,
+        "shortDescription": "Gucci Signature belt bag",
+        "gender": "Man",
+        "images": [
+            {
+                "order": 1,
+                "size": "350",
+                "url": "https://cdn-images.farfetch-contents.com/12/57/89/87/12578987_11980388_350.jpg"
+            }
+        ],
+        "merchantId": 9462,
+        "brand": {
+            "id": 25354,
+            "name": "Gucci"
+        },
+        "quantity": 35,
+        "tag": "NoTag",
+        "price": 945.3415,
+        "priceWithoutDiscount": 945.3415,
+        "currencyIsoCode": "GBP",
+        "priceType": "FullPrice",
+        "isCustomizable": false,
+        "departmentId": "Luxe",
+        "promotionPercentage": 0,
+        "videos": [],
+        "availableSizes": [
+            {
+                "scaleId": 14,
+                "size": "One Size"
+            }
+        ],
+        "hasSimilarProducts": false
+    },
+    {
+        "id": 12295608,
+        "shortDescription": "small Soft Gucci Signature top handle bag",
+        "gender": "Woman",
+        "images": [
+            {
+                "order": 1,
+                "size": "300",
+                "url": "https://cdn-images.farfetch-contents.com/12/29/56/08/12295608_11079294_300.jpg"
+            }
+        ],
+        "merchantId": 10952,
+        "brand": {
+            "id": 25354,
+            "name": "Gucci"
+        },
+        "quantity": 23,
+        "tag": "NoTag",
+        "price": 1130,
+        "priceWithoutDiscount": 1130,
+        "currencyIsoCode": "GBP",
+        "priceType": "FullPrice",
+        "isCustomizable": false,
+        "departmentId": "Luxe",
+        "promotionPercentage": 0,
+        "videos": [],
+        "availableSizes": [
+            {
+                "scaleId": 14,
+                "size": "One Size"
+            }
+        ],
+        "hasSimilarProducts": false
+    },
+    {
+        "id": 12562677,
+        "shortDescription": "Gucci Print leather belt bag",
+        "gender": "Man",
+        "images": [
+ 
+            {
+                "order": 1,
+                "size": "350",
+                "url": "https://cdn-images.farfetch-contents.com/12/56/26/77/12562677_11928850_350.jpg"
+            }
+        ],
+        "merchantId": 10524,
+        "brand": {
+            "id": 25354,
+            "name": "Gucci"
+        },
+        "quantity": 44,
+        "tag": "NoTag",
+        "price": 885,
+        "priceWithoutDiscount": 885,
+        "currencyIsoCode": "GBP",
+        "priceType": "FullPrice",
+        "isCustomizable": false,
+        "departmentId": "Luxe",
+        "promotionPercentage": 0,
+        "videos": [],
+        "availableSizes": [
+            {
+                "scaleId": 14,
+                "size": "One Size"
+            }
+        ],
+        "hasSimilarProducts": false
+    }
+
+]

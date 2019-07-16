@@ -1,0 +1,118 @@
+{
+    "women":[
+        {
+            "id": "item1",
+            "type": "Category",
+            "name": "New In"
+        },
+        {
+            "id": "item2",
+            "type": "Category",
+            "name": "All In One"
+        },
+        {
+            "id": "item3",
+            "type": "Category",
+            "name": "Beachwear"
+        },
+        {
+            "id": "item4",
+            "type": "Category",
+            "name": "Coats"
+        },
+        {
+            "id": "item5",
+            "type": "Category",
+            "name": "Denim"
+        },
+        {
+            "id": "item6",
+            "type": "Category",
+            "name": "Dresses"
+        },
+        {
+            "id": "item7",
+            "type": "Category",
+            "name": "Jackets"
+        },
+        {
+            "id": "item8",
+            "type": "Category",
+            "name": "Knitwear"
+        },
+        {
+            "id": "item9",
+            "type": "Category",
+            "name": "Lingerie & Hosiery"
+        },
+        {
+            "id": "item10",
+            "type": "Category",
+            "name": "Shorts"
+        },
+        {
+            "id": "item11",
+            "type": "Category",
+            "name": "Skirts"
+        },
+        {
+            "id": "item12",
+            "type": "Category",
+            "name": "Suits"
+        },
+        {
+            "id": "item13",
+            "type": "Category",
+            "name": "Tops"
+        },
+        {
+            "id": "item14",
+            "type": "Category",
+            "name": "Trousers"
+        }
+    ],
+    "men":[
+        {
+            "id": "item15",
+            "type": "Category",
+            "name": "beachwear"
+        },
+        {
+            "id": "item16",
+            "type": "Category",
+            "name": "coats"
+        },
+        {
+            "id": "item17",
+            "type": "Category",
+            "name": "shorts"
+        },
+        {
+            "id": "item18",
+            "type": "Category",
+            "name": "suits"
+        },
+        {
+            "id": "item19",
+            "type": "Category",
+            "name": "wallets & purses"
+        }
+    ],
+    "kids":[
+        {
+            "id": "item20",
+            "type": "Category",
+            "name": "shorts"
+        },
+        {
+            "id": "item21",
+            "type": "Category",
+            "name": "suits"
+        },
+        {
+            "id": "item22",
+            "type": "Category",
+            "name": "wallets & purses"
+        }
+    ]
+}
