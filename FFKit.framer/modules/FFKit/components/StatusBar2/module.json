@@ -1,0 +1,11 @@
+{
+    "name": "Dynamic StatusBar",
+    "description": "Emulate iOS, Android & iPhone X statusbars on your prototype",
+    "author": "Reveal Studio",
+
+    "require": "{StatusBar} = require 'framer-statusbar'",
+    "install": "framer-statusbar.coffee",
+    "example": "example.coffee",
+
+    "thumb": "framer-statusbar-thumb-@2x.png"
+}
