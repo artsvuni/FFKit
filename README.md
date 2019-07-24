@@ -6,6 +6,7 @@
 
 -   [Get Started](#Get-Started)
     -   [Installation](#Installation)
+    -   [Framer Cloud](#Upload-to-Framer-Cloud)
     -   [Snippets](#Snippets)
     -   [Master UI views in Design Mode](#Master-UI-views-in-Design-Mode)
     -   [Configuration](#Configuration)
@@ -61,11 +62,46 @@
 
 ---
 
-## Get Started
+![FFKit Cover preview](FFKit.framer/modules/FFKit/assets/kitt.jpg)
+
+## FFKit — Farfetch iOS Prototyping Kit (for Framer Classic)
+
+
+Authors: **Alexander Artsvuni**, **Pavel Laptev**
+May, 2018
+
+Download latest version: [https://github.com/artsvuni/FFKit](https://github.com/artsvuni/FFKit)
+Description of the structure and coding style guide [on dropbox paper](https://paper.dropbox.com/doc/Framer-Farfetch-Mobile-Kit-code-styling-3p8HD9O1K5tUA52ozZMgb)
+Download Framer Classic: [https://classic.framer.com/tutorials/](https://classic.framer.com/tutorials/)
+
+⚠️ **Since the launch of [Framer X](https://framer.com/), original Framer (Classic) is being deprecated.**
+
+---
+
+### Framer Classic resources
+
+**Official Framer Classic Hub**
+[https://classic.framer.com/](https://classic.framer.com/)
+- ['Getting Started' Guides](https://classic.framer.com/guides/)
+- [Official Documentation](https://classic.framer.com/docs/)
+- [Examples Prototypes](https://classic.framer.com/examples/)
+- [UIKits](https://classic.framer.com/resources/)
+- [List of resources and tutorials](https://classic.framer.com/tutorials/)
+
+**Framer Book** 🙌
+Ultimate guide to Framer Classic and Coffee Script
+[https://framerbook.com/classic/](https://framerbook.com/classic/)
+
+**Framer Classic Library @ Github**
+[https://github.com/koenbok/Framer](https://github.com/koenbok/Framer)
+
+
+
+---
 
 ### Installation
 
-Download the lates version of `FFKit.framer` rename the project if you need to.
+Download the latest version of `FFKit.framer` rename the project if you need to.
 When you open it Framer Studio, you'll see:
 
 ```coffeescript
@@ -77,7 +113,7 @@ This line loads all the modules from the kit to your Framer project.
 
 ### Upload to Framer Cloud
 
-To be able to share you projects to Framer Cloud you might need to udpate Project ID.
+To be able to share you projects to Framer Cloud you might need to update Project ID.
 You can find current Project Id in `frame/config.json` 
 
 Modify one of the last numbers, or copy new project id from a new Framer project file. 
@@ -86,17 +122,17 @@ Modify one of the last numbers, or copy new project id from a new Framer project
 
 ![Snippets preview](FFKit.framer/modules/FFKit/snippets/snippets.jpg)
 
-We have code snipets for every component from the Prototyping Kit. You can find the our snipets in `modules/FFKit/snippets` or download it from here: [Link](#)
+We have code snippets for every component from the Prototyping Kit. You can find the our snippets in `modules/FFKit/snippets` or download it from here: [Link](#)
 
-Copy paste the `FFKit snippets` folder to your Framer snipet folder.
+Copy paste the `FFKit snippets` folder to your Framer snippet folder.
 
-To learn more about snipets check out: [How to use Framer Snippets Library](https://blog.framer.com/how-to-use-framer-snippets-library-27995cc7850b)
+To learn more about snippets check out: [How to use Framer Snippets Library](https://blog.framer.com/how-to-use-framer-snippets-library-27995cc7850b)
 
 ### Master UI views in Design Mode
 
 We use Framer's Design Mode to control the basic view of most of our components. We are planing to move this `master` views to an external file in future, but for now we are going to keep them here. Please to not delete or rename anything in the `master` views.
 
-Feel free to use the rest of design mode as you would do nornally.
+Feel free to use the rest of design mode as you would do normally.
 
 ### Configuration
 
@@ -106,28 +142,28 @@ You won't need to touch the configs unless you are building new components for t
 
 Located in `modules/FFKit/`
 
-This file initialises the Prototyping Kit module by module. Allows dissabling individual modules.
+This file initialises the Prototyping Kit module by module. Allows disabling individual modules.
 
 #### Setup.cofee
 
 Located in `modules/FFKit/setup/`
 
-Sets all default requerements and configurations for the Kit including:
+Sets all default requirements and configurations for the Kit including:
 
 -   Fonts
--   Sizing varriables
+-   Sizing variables
 -   Global functions
 -   External Image Settings
 
 ##### External Images
 
-Components such as `ProductCards` support JSON datasets exported from our API. However for quicker performanse we have desabled loading of external images by default. Setting bellow allows you to toggle this configuraiton.
+Components such as `ProductCards` support JSON data sets exported from our API. However for quicker performance we have disabled loading of external images by default. Setting bellow allows you to toggle this configuration.
 
 ```coffeescript
 window.useExternalImages = false
 ```
 
-When set to `false` external product images will be replaced with randomised selection of product images defined in `setup.cofee` you can also find additional configurations for images.
+When set to `false` external product images will be replaced with randomized selection of product images defined in `setup.cofee` you can also find additional configurations for images.
 
 ### Sizes variables
 
@@ -203,12 +239,12 @@ text7 = new FFTextLayer
 
 ![StatusBar preview](FFKit.framer/modules/FFKit/components/StatusBar/preview/StatusBar.jpg)
 
-FFKit includes a status bar component. It has two color modes and automaticly can switch a design from iPhoneX and iPhone 8/7/6 or lower.
+FFKit includes a status bar component. It has two color modes and automatically can switch a design from iPhoneX and iPhone 8/7/6 or lower.
 
 #### Properties ⚙️
 
 -   `updateTime` enable updating time in a status bar. Could be `true` or `false`
--   `signalIcon`, `wifiIcon`, `batteryIcon` servise icons. To change them just place your SVG icons inside the component folder "assets" and type the name for each one.
+-   `signalIcon`, `wifiIcon`, `batteryIcon` service icons. To change them just place your SVG icons inside the component folder "assets" and type the name for each one.
 
 #### Methods **()**
 
@@ -255,7 +291,7 @@ All buttons also could be extended by an icon. An icon aligned by default to the
 #### Properties ⚙️
 
 -   `type` by this property you can choose next button types `primary`, `secondary`, `tertiary`, `flat` and `tag`
--   All basic properties like `width`, `bbackgroundColor` etc., this component takes from Design mode, so, you are free to change them in Design mode or by code.
+-   All basic properties like `width`, `backgroundColor` etc., this component takes from Design mode, so, you are free to change them in Design mode or by code.
 -   `text` Change default text for a button
 -   `icon` all icons should be stored in the root assets/icons folder. Just type the name like `icon: "arrow-left"`
 -   `iconAlign` so far has only one option `left`. This option will align an icon to the left (depends on icon)
@@ -401,7 +437,7 @@ This is a base component for some units, also it's a base component for the Prod
 #### Properties ⚙️
 
 -   `cover` image for the card.
--   `brandText` brand subheader text.
+-   `brandText` brand sub header text.
 -   `descriptionText` description text.
 -   `priceText` price text below description text.
 
@@ -431,7 +467,7 @@ This is a base component for some units, also it's a base component for the Prod
 
 -   `cover` main image.
 -   `season` "New Season" by default.
--   `brand` brand subheader text.
+-   `brand` brand sub header text.
 -   `icon` "wishlist" by default. Could be `true` or `false`
 -   `description` product description text. Could be `true` or `false`
 -   `price` string, must include currency sign.
@@ -443,7 +479,7 @@ This is a base component for some units, also it's a base component for the Prod
 # Tabbar example
 listCard = new ListProductCard
 
-# All propertties
+# All properties
 listCard = new ListProductCard
     cover: $+"default/list-product-card-01.png"
     season: ""
@@ -459,7 +495,7 @@ listCard = new ListProductCard
 
 ![ProductSlider preview](FFKit.framer/modules/FFKit/components/ProductSlider/preview/ProductSlider.gif)
 
-This is a base component for some units. This component allows you create a product list builds on ProductCard component. Also this component conttains buttton-card "Show more".
+This is a base component for some units. This component allows you create a product list builds on ProductCard component. Also this component contains button-card "Show more".
 
 #### Properties ⚙️
 
@@ -655,7 +691,7 @@ radioSelect = new ListRadioSelect
 
 ![iOSSwitch preview](FFKit.framer/modules/FFKit/components/iOSSwitch/preview/iOSSwitch.jpg)
 
-You can use it separetly or with a ListItem
+You can use it separately or with a ListItem
 
 #### Properties ⚙️
 
@@ -775,7 +811,7 @@ With your own content
 
 ```
 # Accordion with your content
-# (paste tergeted frame from design mode)
+# (paste targeted frame from design mode)
 accordionB = new Accordion
     y: accordionA.maxY
     expanded: true
@@ -793,7 +829,7 @@ The component groups accordion items into a single layer and automatically count
 
 #### Properties ⚙️
 
--   `children` array with accrodion items
+-   `children` array with accordion items
 
 #### Usage 🚀
 
@@ -855,7 +891,7 @@ refine.selected(6)
 
 Action sheet component has a back fade layer and on the top — action sheet block. Action sheet block contains header with a close button, title (optional, by default visible is _false_), cta button (optional, by default visible is _true_) and content block.
 
-You can change buttton text, width and visability. Also, you can change title visability and text.
+You can change button text, width and visibility. Also, you can change title visibility and text.
 
 You can set your own content block by targeting one of your frame in Design mode.
 
@@ -867,12 +903,12 @@ You can set your own content block by targeting one of your frame in Design mode
 
 #### Methods **()**
 
--   `actionSheet.show()` This method show an action scheet. It invisible by default.
+-   `actionSheet.show()` This method show an action sheet. It invisible by default.
 
 #### Usage 🚀
 
 ```coffeescript
-# Simpl action sheet example
+# Simple action sheet example
 btnA = new Button
     text: "Show action sheet"
     y: 100, x: Align.center
@@ -914,7 +950,7 @@ We are using external module for inputs and for FFInput module — https://githu
 
 #### Methods **()**
 
--   `inputA.focus()` Automaticly focus chosen input.
+-   `inputA.focus()` Automatically focus chosen input.
 
 #### Usage 🚀
 
@@ -1029,7 +1065,7 @@ searchInputt = new SearchInput
 
 Unit is based on hero_unit frame in Design mode.
 Turns into a slider if there are multiple items.
-(Has paralax)
+(Has parallax)
 
 #### Properties ⚙️
 
@@ -1067,7 +1103,7 @@ Example 2: Slider
 ![ProductUnit preview](FFKit.framer/modules/FFKit/units/ProductUnit/preview/ProductUnit.jpg)
 
 Product slider based on data array.
-(Has paralax)
+(Has parallax)
 
 #### Properties ⚙️
 
@@ -1101,18 +1137,18 @@ array =
     [
         {
         title: "Hello World",
-        description: "Please see our reccomendations, based on designers you love.",
+        description: "Please see our recommendations, based on designers you love.",
         productsArray: [
             { # Product 1
         "brand": { "name": "GUCCI" },
-                "shortDescription": "Tiger embroided hooded sweatshirt",
+                "shortDescription": "Tiger embodied hooded sweatshirt",
                 "price": "£2420",
                 "images": [{ "isLocal": true, "url":     "modules/FFKit/content/default/products/women/01.jpg"}    ]
             }
 
             { # Product 2
                 "brand": { "name": "GUCCI" },
-                "shortDescription": "Tiger embroided hooded sweatshirt",
+                "shortDescription": "Tiger embodied hooded sweatshirt",
                 "price": "£2420",
                 "images": [{ "isLocal": true, "url": "modules/FFKit/content/default/products/women/01.jpg"}]
             }
@@ -1145,13 +1181,13 @@ Unit is based on FeatureUnit frame in Design mode.
 #### Properties ⚙️
 
 -   `title` – text layer
--   `description` – text layer, if set to "" will hide the descrition
--   `cover` – backgorund image
+-   `description` – text layer, if set to "" will hide the description
+-   `cover` – background image
 -   `nopadding` - yes or blank, switches the image padding (product image vs cover image with mo padding)
 
 #### Usage 🚀
 
-Example 1: Optimised for product Image
+Example 1: Optimized for product Image
 
 ```coffeescript
 featureUnit = new FeatureUnit
@@ -1160,7 +1196,7 @@ featureUnit = new FeatureUnit
     cover: "modules/FFKit/units/FeatureUnit/images/product.jpg"
 ```
 
-Example 2: No padding, optimised for Cover image
+Example 2: No padding, optimized for Cover image
 
 ```coffeescript
     featureUnit = new FeatureUnit
@@ -1169,7 +1205,6 @@ Example 2: No padding, optimised for Cover image
     cover: "modules/FFKit/units/FeatureUnit/images/cover-02.jpg"
     nopadding: yes
 ```
-
 Example 2: Without description, but this does not work properly, Pavel will fix soon :)
 
 ```coffeescript
@@ -1258,7 +1293,7 @@ productSet = new ProductSet
 
 ![ProductHero preview](FFKit.framer/modules/FFKit/units/ProductHero/preview/ProductHero.gif)
 
-Unit has a complex interactions. Has long desription and product slider. To enable the long description fade animation this component should have a ScrollComponent as a parent.
+Unit has a complex interactions. Has long description and product slider. To enable the long description fade animation this component should have a ScrollComponent as a parent.
 
 #### Properties ⚙️
 
@@ -1277,7 +1312,7 @@ productHeroA = new ProductHero
 
 # All basic properties
 productHeroA = new ProductHero
-    subTitle: "Please see our reccomendations, based on designers you love."
+    subTitle: "Please see our recommendations, based on designers you love."
     description: "There was a shift in sportswear this season. Sure, expected injections of nineties youth culture courtesy of Gosha and the gang were still present, but the general mood played to the more distant past of seventies and eighties athletic wear."
     productsArray: [
         { # Product 1
@@ -1401,7 +1436,7 @@ Generates a recommended items list. Has a limitation — no more then 4 items.
 
 #### Properties ⚙️
 
--   `array` — An array of recomended items.
+-   `array` — An array of recommended items.
 -   `shopAllBtn` — Show or hide the «Shop all» button
 -   `description` — card property — `true` or `false`
 -   `icon` — card property, "wishlist" button — `true` or `false`
@@ -1419,7 +1454,7 @@ recomendedList = new RecommendedListUnit
 All properties
 
 ```
-# Recomended List
+# Recommended List
 scroll = new ScrollComponent
     size: Screen.size
     scrollHorizontal: false
@@ -1441,12 +1476,12 @@ scroll.updateContent() # Update scroll
 
 ![SearchUnit preview](FFKit.framer/modules/FFKit/units/SearchUnit/preview/SearchUnit.jpg)
 
-This unit is a complex unit with inner search page and qllows you to search in categories and designers. You can pass your own data for designers and categories.
+This unit is a complex unit with inner search page and allows you to search in categories and designers. You can pass your own data for designers and categories.
 
 #### Properties ⚙️
 
--   `designers` — A path to array of avalible designers. by defoult we are using this path "modules/FFKit/content/default/designers.json"
--   `categories` — A path to array of avalible categories. by defoult we are using this path "modules/FFKit/content/default/categories.json"
+-   `designers` — A path to array of available designers. by default we are using this path "modules/FFKit/content/default/designers.json"
+-   `categories` — A path to array of available categories. by default we are using this path "modules/FFKit/content/default/categories.json"
 -   `actions` — Pass actions for certain items by id
 
 #### Usage 🚀
@@ -1527,7 +1562,7 @@ Simple gender switch banner.
 -   `text` — The button's text
 -   `type` - Define gender to generate a default banner ("men" or "women")
 -   `gradient` - Adds subtle gradient over image (yes or no)
--   `banner` - Overrides default image with cutsom image
+-   `banner` - Overrides default image with custom image
 
 #### Usage 🚀
 
@@ -1602,7 +1637,7 @@ In case when you need to put multiple children in the same parent.
 
 #### paralaxOnScroll(_scroll_)
 
-Handles paralax of units that have paralaxed backgorund. Call this function at the end of your prototype, to enable paralax.
+Handles paralax of units that have parallax background. Call this function at the end of your prototype, to enable paralax.
 
 Used by: `heroUnit`, `ProductSet`, `heroUnit`, `ProductHero`
 
@@ -1646,7 +1681,7 @@ Used by: `all FFKit components`
 ```coffeescript
 # 1. In the class
 
-    # Initialise the class
+    # Initialize the class
     super _.defaults @opt,
 
     # call the function of 'target' is defined
@@ -1668,7 +1703,7 @@ flow = new FlowComponent
 flow.showNext(meFrame) # frame from design mode
 
 scroll = new ScrollComponent
-    size: me_scroll_frame.size # scroll conteiner from deisng mode
+    size: me_scroll_frame.size # scroll container from design mode
     scrollHorizontal: false
 
 me_scroll_frame.parent = scroll.content
@@ -1683,9 +1718,9 @@ listItem = new ListItem
 
 #### positionAfter(_after, frame, offset=0_)
 
-Is used to ealely position units/components one after another.
+Is used to to position units/components one after another.
 
-Positions current componnet bellow component/object specified in 'after'.
+Positions current components bellow component/object specified in 'after'.
 Also inherits the parent of specified component.
 If 'y' is defined after using 'after' then the unit will be pushed down by the number defined in 'y'.
 
@@ -1725,7 +1760,7 @@ Extents ScrollComponent to support 'after' and 'target' properties.
 
 #### Properties ⚙️
 
--   `after` — An array of recomended items.
+-   `after` — An array of recommended items.
 -   `target` — Show or hide the «Shop all» button
 
 #### Usage 🚀
@@ -1739,4 +1774,3 @@ scroll = new FFScrollComponent
 
 ---
 
-Description of the structure and coding styleguide [on dropbox paper](https://paper.dropbox.com/doc/Framer-Farfetch-Mobile-Kit-code-styling-3p8HD9O1K5tUA52ozZMgb)
