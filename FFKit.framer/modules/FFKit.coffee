@@ -33,7 +33,6 @@ require_setup "FFTextLayer"
 # Components
 # Basic
 require_component "StatusBar"
-require_component "StatusBar2"
 require_component "Button"
 require_component "Header"
 require_component "Keyline"
