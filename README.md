@@ -72,7 +72,7 @@ May, 2018
 
 Download latest version: [https://github.com/artsvuni/FFKit](https://github.com/artsvuni/FFKit)
 Description of the structure and coding style guide [on dropbox paper](https://paper.dropbox.com/doc/Framer-Farfetch-Mobile-Kit-code-styling-3p8HD9O1K5tUA52ozZMgb)
-Download Framer Classic: [https://classic.framer.com/tutorials/](https://classic.framer.com/tutorials/)
+Download Framer Classic: [https://classic.framer.com/download](https://classic.framer.com/download)
 
 ⚠️ **Since the launch of [Framer X](https://framer.com/), original Framer (Classic) is being deprecated.**
 
