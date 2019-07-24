@@ -2,8 +2,8 @@
 # By Farfetch
 # Contents: Parse JSON configuration, whitch modules should be includes in the Kit
 # Autors: Alexander Artsvuni, Sophie Rahiers, Pavel Laptev
-# Website: https://www.farfetch.com
-# Kit version: 1.0.2
+# Website: https://farfetch.design/mobile
+# Kit version: 1.0.3
 
 # Functions makes path shorter
 global.require_setup = (name) ->

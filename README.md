@@ -1,6 +1,6 @@
-# FFKit — Mobile Prototyping Kit [](readme-name-id)
+# Framer.js <span style="color: #ff6b79">Prototyping Kit</span> [](readme-name-id)
 
-### v1.0.2 [](version-id)
+### v1.0.3 [](version-id)
 
 ### Table of contents [](toc-id)
 
