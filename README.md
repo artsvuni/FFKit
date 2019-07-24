@@ -64,7 +64,7 @@
 
 ![FFKit Cover preview](FFKit.framer/modules/FFKit/assets/kitt.jpg)
 
-## FFKit — Farfetch iOS Prototyping Kit (for Framer Classic)
+# FFKit — Farfetch iOS Prototyping Kit (for Framer Classic)
 
 
 Authors: **Alexander Artsvuni**, **Pavel Laptev**
@@ -98,6 +98,8 @@ Ultimate guide to Framer Classic and Coffee Script
 
 
 ---
+
+# Get-Started
 
 ### Installation
 
